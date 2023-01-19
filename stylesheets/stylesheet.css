@@ -117,7 +117,7 @@ li.carousel-entry {
 }
 .stories-container {
     /* width: calc(100vw - 96px); */
-
+    height: 300px;
     
 }
 .stories-header {

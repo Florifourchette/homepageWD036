@@ -21,6 +21,11 @@ body{
 }
 
 
+.firstsection {
+    margin: 84px 0 0 0;
+}
+
+
 .secondsection{
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
