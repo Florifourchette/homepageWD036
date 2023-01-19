@@ -58,10 +58,18 @@ h2 {
     height: 48px;
     width: 48px;
     border-radius: 24px;
-
-    justify-content: center;
-    align-items: center;
     background-color: #ccc;
+    position: relative;
+}
+.button-icon {
+    position: absolute;
+    font-size: 24px;
+    top: 5px;
+    left: 15px;
+}
+.inactive {
+    background-color: #f5f5f5;
+    color: #cccccc;
 }
 
 .carousel-container {
