@@ -168,7 +168,7 @@ li.carousel-entry {
 - Second section: where you find the main nav and the search bar .second_section
 - Third section: where you can find the discounts .third_section*/
 
-header{
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -314,13 +314,13 @@ background-color: grey;
 }
 
 .scroll_banner{
-    margin: 1em;
+    /* margin: 1em; */
     display: flex;
     align-self: center;
     position: relative;
 }
 
-.scroll_banner div p{
+.scroll_banner div p {
     margin: 0;
     color:  #858585;
 
@@ -332,6 +332,11 @@ flex-direction: column;
 justify-content: center;
 }
 
-.scroll_banner div a{
+.scroll_banner div a {
     text-decoration: none;
+}
+
+.scroll_banner div a {
+    text-decoration: none;
+    padding: 12px 12px;
 }
